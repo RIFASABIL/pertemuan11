@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F8F9FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fintech Billing App - Basic Parsing"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnParseBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARSE MERCHANT JSON"
+        android:backgroundTint="#1A237E"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvOutputBasic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:text="Hasil parsing akan muncul di sini..."
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:fontFamily="monospace" />
+
+    <Button
+        android:id="@+id/btnOpenInvoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUKA DETAIL INVOICE"
+        android:backgroundTint="#2E7D32"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
